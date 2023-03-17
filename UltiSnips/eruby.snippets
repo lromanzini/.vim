@@ -1,0 +1,11 @@
+snippet fw "form with"
+<%= form_with ${1} do |form| %>
+	${0}
+<% end %> 
+endsnippet
+
+snippet fwm "form with model"
+<%= form_with model: @${1:model} do |form| %>
+	${0}
+<% end %> 
+endsnippet
