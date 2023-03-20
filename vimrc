@@ -110,23 +110,23 @@ let g:UltiSnipsJumpForwardTrigger='<c-b>'
 let g:UltiSnipsJumpBackwardTrigger='<c-z>'
 let g:UltiSnipsEditSplit='vertical'
 
-" anula a função do Q (útil para evitar 'acidentes' usando o Dvorak)
+" anula a função do Q (útil para evitar 'acidentes')
 nnoremap <silent> Q <nop>
 
 " clear the search
 nnoremap <silent> <C-N> :nohlsearch<cr>
 
 " config edit
-nnoremap <leader>ce :e ~/.vim/vimrc<cr>
+nnoremap <leader>oc :e ~/.vim/vimrc<cr>
 
 " config reload
 nnoremap <leader>cr :source ~/.vim/vimrc<cr>
 
 " romadocs
-nnoremap <leader>rd :e ~/Projects/romadocs<cr>
+nnoremap <leader>ord :e ~/projetos/romadocs<cr>
 
 " to do
-nnoremap <leader>td :e ~/Desktop/todo.md<cr>
+nnoremap <leader>otd :e ~/Área\ de\ Trabalho/todo.md<cr>
 
 " save
 nnoremap <leader>w :w<cr>
