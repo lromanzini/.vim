@@ -110,8 +110,9 @@ let g:UltiSnipsJumpForwardTrigger='<c-b>'
 let g:UltiSnipsJumpBackwardTrigger='<c-z>'
 let g:UltiSnipsEditSplit='vertical'
 
-" anula a função do Q (útil para evitar 'acidentes')
+" anula alguns atalhos para evitar 'acidentes'
 nnoremap <silent> Q <nop>
+nnoremap <silent> <C-Z> <nop>
 
 " clear the search
 nnoremap <silent> <C-N> :nohlsearch<cr>
