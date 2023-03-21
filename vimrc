@@ -22,6 +22,8 @@ Plug 'tpope/vim-surround'
 Plug 'vim-airline/vim-airline'
 call plug#end()
 
+autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTabTree() | quit | endif
+
 " highlight line
 " set cursorline
 
@@ -127,7 +129,7 @@ nnoremap <leader>cr :source ~/.vim/vimrc<cr>
 nnoremap <leader>ord :e ~/projetos/romadocs<cr>
 
 " to do
-nnoremap <leader>otd :e ~/Área\ de\ Trabalho/todo.md<cr>
+nnoremap <leader>otd :e ~/Área\ de\ Trabalho/z-todo.md<cr>
 
 " save
 nnoremap <leader>w :w<cr>
