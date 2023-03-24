@@ -80,11 +80,6 @@ let g:airline_section_y=''
 " set statusline=%<%f\ %h%m%r%{FugitiveStatusline()}%=%-14.(%l,%c%V%)\ %P
 " set statusline=%<%f\ %h%m%r%{}%=%-14.(%l,%c%V%)\ %P
 
-" Term
-" Sem isso, as teclas Home e End dão problema.
-" Massss, com isso o cursor para de piscar quando usa o fzf :/
-" set term=xterm-256color
-
 " Gruvbox
 let g:gruvbox_contrast_dark='hard'
 colorscheme gruvbox
@@ -103,6 +98,7 @@ highlight GitGutterChangeDelete ctermbg=NONE guibg=NONE
 " let g:deoplete#enable_at_startup = 1
 set omnifunc=ale#completion#OmniFunc
 nnoremap <leader>ad :ALEGoToDefinition<cr> 
+nnoremap <leader>ar :ALEFindReferences<cr> 
 nnoremap <leader>ah :ALEHover<cr>
 nnoremap <leader>af :ALEFix<cr>
 
