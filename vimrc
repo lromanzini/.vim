@@ -67,7 +67,7 @@ set hlsearch
 let mapleader = ' '
 
 " Nord
-" colorscheme nord
+colorscheme nord
 
 " Airline
 let g:airline_powerline_fonts=1
@@ -81,15 +81,15 @@ let g:airline_section_y=''
 " set statusline=%<%f\ %h%m%r%{}%=%-14.(%l,%c%V%)\ %P
 
 " Gruvbox
-let g:gruvbox_contrast_dark='hard'
-colorscheme gruvbox
-set background=dark
-highlight Normal ctermbg=NONE guibg=NONE
-highlight SignColumn ctermbg=NONE guibg=NONE
-highlight GitGutterAdd ctermbg=NONE guibg=NONE
-highlight GitGutterChange ctermbg=NONE guibg=NONE
-highlight GitGutterDelete ctermbg=NONE guibg=NONE
-highlight GitGutterChangeDelete ctermbg=NONE guibg=NONE
+" let g:gruvbox_contrast_dark='hard'
+" colorscheme gruvbox
+" set background=dark
+" highlight Normal ctermbg=NONE guibg=NONE
+" highlight SignColumn ctermbg=NONE guibg=NONE
+" highlight GitGutterAdd ctermbg=NONE guibg=NONE
+" highlight GitGutterChange ctermbg=NONE guibg=NONE
+" highlight GitGutterDelete ctermbg=NONE guibg=NONE
+" highlight GitGutterChangeDelete ctermbg=NONE guibg=NONE
 
 " ALE
 " set completeopt=menu,menuone,preview,noselect,noinsert
